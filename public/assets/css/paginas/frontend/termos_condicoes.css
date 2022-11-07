@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+#rowtd {
+    padding-top: 100px!important;
+    padding-bottom: 50px!important;
+}
+
+.title.tc {
+    font-size: 25px !important;
+}
+
+.ui.styled.accordion .active.title {
+    background: 0 0;
+    color: #4b1825 !important;
+}
+
+.header_li {
+    color: #331019 !important;
+}
+
+i.styled.accordion .accordion .active.title, .ui.styled.accordion .accordion .title:hover {
+    background: 0 0;
+    color: #4b1825 !important;
+}
+
+.content {
+    font-size: 18px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .title.tc {
+        font-size: 21px !important;
+    }
+
+    .title.segundo.tc {
+        font-size: 18px !important;
+    }
+
+    .content.tc {
+        font-size: 16px !important;
+    }
+}

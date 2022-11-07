@@ -1,0 +1,124 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+img.banner {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.perguntas {
+    max-width: 60%;
+}
+
+div.col-md-10.perguntas.main {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.breadcrumb {
+    background-color: white;
+    margin-top: 30px !important;
+}
+
+.ui.breadcrumb a {
+    color: #742f37 !important;
+}
+
+.breadcrumb .active {
+    color: #742f37 !important;
+}
+
+.grid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.title.pergunta {
+    font-size: 25px !important;
+}
+
+.resposta {
+    font-size: 19px !important;
+}
+
+.title:hover {
+    color: #34141c !important;
+}
+
+.ui.styled.accordion .active.title {
+    background: 0 0;
+    color: #4b1825 !important;
+}
+
+i.styled.accordion .accordion .active.title, .ui.styled.accordion .accordion .title:hover {
+    background: 0 0;
+    color: #4b1825 !important;
+}
+
+.container-fluid a:visited,
+.container-fluid a:hover,
+.container-fluid a:active {
+    color: #4b1825;
+}
+
+.categoria {
+    font-size: 40px !important;
+    margin-top: 30px !important;
+    margin-bottom: 16px !important;
+    color: #4b1825;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: #4b1825;
+}
+
+.resposta {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+    img.banner {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .categoria {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        line-height: 30px;
+        color: #34141c;
+        margin-left: -10px;
+        font-weight: bolder;
+        font-size: 27px;
+    }
+
+    #Conta h1,
+    #Encomenda h1,
+    #Pagamento h1 {
+        margin: 10px 0px;
+    }
+
+    .perguntas {
+        max-width: 100%;
+    }
+
+    div.col-md-10.perguntas.main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .title.pergunta {
+        font-size: 15px !important;
+    }
+
+    .resposta {
+        font-size: 14px !important;
+    }
+}

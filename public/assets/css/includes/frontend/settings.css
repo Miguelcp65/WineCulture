@@ -1,0 +1,185 @@
+
+/* ------------ ☀️ / 🌒 Switch Toggle ------------ */
+span.toggledark {
+    position: fixed;
+    display: inline;
+    cursor: pointer;
+    top: 20px;
+    right: 25px;
+    font-size: 150%;
+    z-index: 500;
+}
+
+span.toggledark:before {
+    content: "\f0eb";
+    font-family: 'FontAwesome';
+    color: black;
+}
+
+span.toggledark.active:before {
+    content: "\f0eb";
+    font-family: 'FontAwesome';
+    color: white;
+}
+
+span.toggledark.animate {
+    animation: animate 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* ------------ 🌊 wave effect ------------ */
+span.wave {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    border-radius: 100%;
+    width: 2px;
+    height: 2px;
+    display: block;
+    box-shadow: 0 0 0 0 #212121;
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+span.wave.active {
+    background: #212121;
+    box-shadow: 0 0 0 9999px #212121;
+}
+
+@keyframes animate {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+.defs{
+    position: fixed;
+    top: 0;
+    z-index: 500;
+}
+
+.pie {
+    -webkit-tap-highlight-color: transparent;
+    background: #000;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    height: 400px;
+    left: -200px;
+    z-index: 20;
+    position: absolute;
+    top: -200px;
+    width: 400px;
+    transform: translateX(-200px) translateY(-200px);
+    transition: transform 300ms;
+}
+  .pie-color:hover {
+    opacity: 0.85;
+  }
+  .pie-color:active {
+    opacity: 0.7;
+  }
+  .pie1 {
+    clip-path: polygon(200px 200px, 344px 450px, 0 450px);
+    transition-delay: 30ms;
+    border: 3px solid #742f37;
+  }
+  .pie2 {
+    clip-path: polygon(200px 200px, 344px 450px, 450px 344px);
+    transition-delay: 60ms;
+    border: 3px solid #742f37;
+  }
+  .pie3 {
+    clip-path: polygon(200px 200px, 450px 0, 450px 344px);
+    transition-delay: 90ms;
+    border: 3px solid #742f37;
+  }
+  .pie-color {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .pie-color1 {
+    background: white;
+    clip-path: polygon(200px 200px, 344px 450px, 0 450px);
+  }
+  .pie-color2 {
+    background: white;
+    clip-path: polygon(200px 200px, 344px 450px, 450px 344px);
+  }
+  .pie-color3 {
+    background: white;
+    clip-path: polygon(200px 200px, 450px 0, 450px 344px);
+  }
+  .profile {
+    left: 210px;
+    position: absolute;
+    top: 320px;
+    width: 40px;
+  }
+  .chat {
+    left: 288px;
+    position: absolute;
+    top: 282px;
+    width: 40px;
+  }
+  .logout {
+    left: 320px;
+    position: absolute;
+    top: 215px;
+    width: 40px;
+  }
+  .menuu {
+    -webkit-tap-highlight-color: transparent;
+    background: #fff;
+    z-index: 20;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    height: 205px;
+    left: -100px;
+    position: absolute;
+    top: -130px;
+    width: 200px;
+  }
+  .hamburger {
+    cursor: pointer;
+    height:40px;
+    left: 57%;
+    position: relative;
+    top: 68%;
+    width: 40px;
+  }
+  .hamburger path {
+    transition: transform 300ms;
+  }
+  .hamburger path:nth-child(1) {
+    transform-origin: 25% 29%;
+  }
+  .hamburger path:nth-child(2) {
+    transform-origin: 50% 50%;
+  }
+  .hamburger path:nth-child(3) {
+    transform-origin: 75% 72%;
+  }
+  .hamburger path:nth-child(4) {
+    transform-origin: 75% 29%;
+  }
+  .hamburger path:nth-child(5) {
+    transform-origin: 25% 72%;
+  }
+  .active .pie {
+    transform: translateX(0) translateY(0);
+  }
+  .active .hamburger path:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  .active .hamburger path:nth-child(2) {
+    transform: scaleX(0);
+  }
+  .active .hamburger path:nth-child(3) {
+    transform: rotate(45deg);
+  }
+  .active .hamburger path:nth-child(4) {
+    transform: rotate(-45deg);
+  }
+  .active .hamburger path:nth-child(5) {
+    transform: rotate(-45deg);
+  }

@@ -1,0 +1,639 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+img.banner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.banner {
+    margin-bottom: 10px;
+}
+
+@keyframes banner {
+    0% {
+        transform: translateY(-200%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.grid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.grid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.maincontainer {
+    margin-top: 50px !important;
+}
+
+@keyframes maincontainer {
+    0% {
+        transform: translateY(-200%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.semicontainer {
+    margin-top: 0 !important
+}
+
+.row {
+    width: 100% !important;
+    margin: auto auto !important;
+}
+
+.semirow {
+    padding-top: 0 !important;
+    height: auto !important;
+}
+
+.filtrosmain {
+    min-height: 1120px !important;
+    margin-bottom: 100px !important;
+}
+
+.filtrosmain,
+.semifiltros {
+    margin-right: 35px !important;
+}
+
+@keyframes filtrosmain {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.headervinhos {
+    margin-top: 15px !important;
+}
+
+.filtros {
+    height: 100%;
+}
+
+.filtrosmenu {
+    width: 100% !important;
+}
+
+.ui.toggle.checkbox input:focus:checked~label:before {
+    background-color: #742f37 !important;
+}
+
+.ui.toggle.checkbox input:checked~label:before {
+    border-color: #742f37 !important;
+}
+
+.ui.toggle.checkbox input~label:after {
+
+    background: #742f37;
+}
+
+.ui.toggle.checkbox input:checked~label:before {
+    background-color: #742f37 !important;
+}
+
+.ui.slider.checkbox input:focus:checked~label:before {
+    background-color: #742f37 !important;
+}
+
+.ui.slider.checkbox input:checked~label:before {
+    border-color: #742f37 !important;
+}
+
+.ui.slider.checkbox input~label:after {
+
+    background: #742f37;
+}
+
+.ui.slider.checkbox input:checked~label:before {
+    background-color: #742f37 !important;
+}
+
+
+.ui.toggle.checkbox input:checked~label:after {
+
+    background: white;
+}
+
+.vinhosheader {
+    padding: 0 !important;
+}
+
+.headercontainer,
+.headervinhoscontainer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.headervinhoscontainer {
+    overflow-y: auto !important;
+    width: 82% !important;
+    height: 60px !important;
+}
+
+.headervinhoscontainer::-webkit-scrollbar-track {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px 0;
+    background-color: white
+}
+
+.headervinhoscontainer::-webkit-scrollbar {
+    height: 7px;
+}
+
+.headervinhoscontainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(0deg, #5e262d 0%, #9d0214 100%);
+    border: 1px solid #000;
+}
+
+.headervinhoscontainer::-webkit-scrollbar-thumb:hover {
+    background-color: #3f171b;
+}
+
+.semiheader,
+.headervinhos {
+    border: none !important;
+    height: 40px !important;
+}
+
+.semiheader {
+    border-bottom: 2px solid #742f37 !important;
+}
+
+.ui.menu .item:before {
+    background: none;
+}
+
+.headercontainer a.item,
+.headervinhoscontainer a.item,
+.ordenacao {
+    border: none !important
+}
+
+.ordenacao {
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.iconfiltro,
+.tagsicon,
+.pesquisaricon {
+    color: #742f37;
+}
+
+.pesquisaricon {
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.listavinhos {
+    padding: 0 !important;
+}
+
+@keyframes listavinhos {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.headervinhos {
+    margin-top: 15px !important;
+}
+
+.selectfiltros {
+    background-color: #742f37 !important;
+    color: white !important;
+    padding: 1em !important;
+}
+
+.reporfiltros {
+    background-color: white !important;
+    padding: 1em !important;
+    color: black !important;
+    border: 2px solid #742f37 !important;
+    margin-left: 15px !important;
+    height: 37px;
+    display: none;
+    margin-top: 12px !important;
+}
+
+.reporfiltros i.apagarfiltros {
+    font-size: 20px !important;
+    margin: 0 !important;
+    line-height: 10px !important
+}
+
+
+.itemfiltros {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.headervinhospesquisa {
+    border: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    padding: 0 !important;
+}
+
+.headervinhospesquisa input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid #742f37 !important;
+}
+
+.results .category {
+    position: absolute !important;
+    margin-left: -96px !important;
+}
+
+.results .category .name {
+    border: 2px solid #742f37 !important;
+    border-right: none !important;
+    color: black !important;
+}
+
+.results .category .results {
+    border: 2px solid #742f37 !important
+}
+
+a.refresh {
+    padding-left: 0 !important
+}
+
+a.refresh:hover {
+    background-color: unset !important
+}
+
+a.refresh i.animacao {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.vinhoscontainer {
+    margin: auto auto !important;
+    margin-top: 50px !important;
+    padding: 0 !important;
+    margin-bottom: 135px !important;
+    text-align: center !important;
+    font-size: 20px !important;
+}
+
+.vinhoscontainer img {
+    height: 250px !important;
+    object-fit: contain !important
+}
+
+.columnvinho {
+    box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.columnvinho img{
+    transition: transform .2s ease-in-out;
+}
+.columnvinho:hover img{
+    transform: scale(1.1);
+
+}
+
+
+.dividervinho {
+    width: 90%;
+    margin: 25px auto;
+    margin-bottom: 15px;
+}
+
+.imgbtnright,
+.imgbtndown {
+    margin-top: 2px !important;
+    border-radius: 5px !important;
+}
+
+.imgbtnright:hover,
+.imgbtndown:hover {
+    border: 2px solid #742f37;
+}
+
+.imgbtndown {
+    height: 40px !important;
+    width: 42px !important;
+}
+
+.imgbtnright {
+    height: 42px !important;
+    width: 42px !important;
+}
+
+.imgbtnright {
+    float: right !important;
+}
+
+.imgbtndown {
+    float: left !important;
+}
+
+.imgbtnright .direita,
+.imgbtndown .baixo {
+    background-color: white !important;
+}
+
+.imgbtnright i,
+.imgbtndown i {
+    color: #742f37 !important;
+}
+
+.ui.cube.shape .side {
+    background-color: unset !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.shapedetalhes {
+    display: inline-block;
+    margin-top: 15px;
+    color: black !important;
+    font-size: 19px !important;
+}
+
+.shapevinho {
+    height: 250px !important;
+}
+
+.shapedetalhes .sides {
+    height: 50px
+}
+
+.shapedetalhes .sides .side {
+    height: 50px
+}
+
+.sides.sidesdetalhes .side {
+    height: 50px !important
+}
+
+.imgvinho {
+    width: 100% !important;
+    height: 350px;
+    object-fit: cover;
+    transition: transform .4s;
+}
+
+input[type="search"] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: searchfield;
+
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 16px;
+    width: 16px;
+    background-image: url("../../../img/paginas/frontend/vinhos/apagarpesquisa.png");
+}
+
+div.pagination {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 55px;
+    width: 100%;
+    height: 50px;
+}
+
+.pagination nav {
+    margin: auto auto
+}
+
+.pagination nav ul {
+    font-size: 20px;
+}
+
+.pagination nav ul li {
+    padding: 5px;
+}
+
+.pagination nav ul li .page-link {
+    padding: 15px;
+    border-radius: 5px;
+    color: #742f37;
+    border: 2px solid #742f37;
+}
+
+nav .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #742f37;
+    border: 2px solid #742f37;
+}
+
+.ui.active.slow {
+    margin-bottom: 40% !important;
+}
+
+.ui.green.loader.loader.loader:after {
+    color: #8f1422 !important;
+}
+
+.ui.disabled.rating.vinhosclass i {
+    border-color: #742f37 !important
+}
+
+.ui.rating .active.icon {
+    color: white;
+}
+
+.ui.rating .active::before {
+    color: #742f37 !important
+}
+
+.refresh {
+    width: 15px;
+}
+
+.track-fill {
+    background-color: #742f37 !important;
+}
+
+input.qntclvals1,
+input.qntclvals2,
+.per_alcvals1,
+.per_alcvals2 {
+    width: 21% !important;
+    color: black !important;
+    text-align: center !important;
+    border: none !important;
+    border-bottom: 2px solid #742f37 !important;
+    border-radius: 0 !important;
+}
+
+.filtroschecksqnt_cl,
+.filtroschecksperc_alc {
+    width: 100% !important;
+}
+
+.gruposliders {
+    width: 100% !important;
+    border: 2px solid #742f37 !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+.gruposliders li {
+    list-style: none;
+    display: inline;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+#sidebar, #fecharside {
+    display: none;
+}
+
+
+.thumb,
+.thumb.second {
+    background-color: #742f37 !important;
+}
+
+@media screen and (max-width: 1796px) {
+
+    .semicontainer,
+    .maincontainer {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .ui.grid>.row>[class*="twelve wide"].column {
+        width: 78% !important;
+    }
+
+    .ui.grid>.row>[class*="three wide"].column {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1548px) {
+    .ui.grid>.row>[class*="three wide"].column {
+        display: none;
+        width: 45% !important;
+        margin-top: 17px !important;
+        position: static !important;
+        flex-direction: column !important;
+        z-index: 20 !important;
+        width: 100% !important;
+    }
+
+    .itemfiltros,
+    .reporfiltros {
+        display: none !important;
+    }
+
+    #sidebar {
+        display: inline;
+    }
+
+    .ui.grid>.row>[class*="twelve wide"].column {
+        width: 98% !important;
+        margin: auto auto !important;
+    }
+
+    .shapedetalhes {
+        margin: auto auto;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1354px) {
+    .ui[class*="four column"].grid>.column:not(.row) {
+        width: 31% !important;
+    }
+
+    .ui.grid>.row {
+
+        margin: auto auto !important;
+    }
+
+    .vinhoscontainer {
+        margin: auto auto;
+        margin-top: 100px !important;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1018px) {
+    .ui[class*="four column"].grid>.column:not(.row) {
+        width: 45% !important;
+    }
+
+    .ui.grid>.row>[class*="twelve wide"].column,
+    .semicontainer {
+        width: 100% !important;
+        margin: auto auto !important;
+    }
+
+    .semicontainer {
+        margin-top: 50px !important;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .ui.stackable.menu .item {
+        width: auto !important;
+    }
+
+    .refresh {
+        width: 90% !important;
+        left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 714px) {
+    .ui[class*="four column"].grid>.column:not(.row) {
+        width: 85% !important;
+    }
+
+}

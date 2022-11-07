@@ -1,0 +1,154 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+html {
+    --background: #fff;
+    --color: black;
+    --btn-background: #27000a;
+    --btn-color: #fff;
+    --inputs: transparent
+    --placeholder: rgb(107, 107, 107);
+}
+.theme-dark {
+    --background: #212121;
+    --color: #fff;
+    --btn-background: black;
+    --btn-color: #fff;
+    --inputs: #2e2e2e;
+    --placeholder: #fff;
+}
+
+.cenas input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 95%;
+    color: #27000a;
+    text-align: left;
+    font-size: 21px;
+    background-color: var(--inputs);
+    font-weight: 100;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 0 !important;
+}
+
+.bruv {
+    border: none;
+    width: 694px;
+    border-bottom: 1px solid black;
+}
+
+.bruv::placeholder {
+    font-size: 20px;
+}
+
+.campo {
+    margin-bottom: 50px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.formulario {
+    background-color: var(--background);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.breadcrumb {
+    background-color: white;
+    margin-top: 30px !important;
+}
+
+.ui.breadcrumb a {
+    color: #742f37 !important;
+}
+
+.breadcrumb .active {
+    color: #742f37 !important;
+}
+
+.grid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.contactos {
+    background-color: green;
+}
+
+.icon {
+    font-size: 35px;
+    color: var(--color);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#rowcontactos {
+    color: var(--color);
+    padding-top: 120px!important;
+    padding-bottom: 70px!important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input.form-control,
+textarea.form-control {
+    background-color: var(--inputs);
+    color: var(--color);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+::placeholder {
+    color: var(--placeholder);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cenas button.form-btn.dx {
+    right: 0;
+    background-color: #27000a;
+    color: #fff;
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cenas button.form-btn.dx:hover {
+    opacity: 0.7;
+}
+
+.cenas button.form-btn {
+    position: relative;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 40px !important;
+    margin: auto;
+    display: block;
+}
+
+#campoAssunto,
+#campoNome,
+#campoEmail,
+#campoMensagem {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 14pt !important;
+    display: unset !important;
+    padding: 5px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .bruv {
+        border: none;
+        width: 96%;
+        border-bottom: 1px solid black;
+    }
+}

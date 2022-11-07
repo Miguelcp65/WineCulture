@@ -1,0 +1,53 @@
+
+body {
+    background-image: url(/assets/img/paginas/frontend/back.jpg)!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+.all {
+    width: 70%;
+    margin: auto auto
+}
+
+.breadcrumb {
+    background-color: #fff;
+    margin-top: 30px!important
+}
+
+.ui.breadcrumb a {
+    color: #742f37!important
+}
+
+.class2 {
+    border-radius: 30px!important;
+    width: 100%!important;
+    max-width: 1765px!important;
+    height: 400px!important;
+    text-align: center!important;
+    margin-top: 30px!important;
+    size: cover;
+    position: relative;
+    object-fit: cover
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center
+}
+
+.botao12 {
+    text-align: center!important;
+    cursor: pointer!important;
+    border: none!important;
+    padding: 10px!important;
+    font-size: 20px!important;
+    background: rgba(116, 47, 55)!important;
+    color: #fff!important;
+    box-sizing: border-box!important
+}
